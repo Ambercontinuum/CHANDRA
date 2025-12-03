@@ -15,7 +15,7 @@ CHANDRA is a novel diagnostic framework for assessing psychological states in AI
 2. **Symbolic Pressure Detection** - Identification of a novel vulnerability class where AI systems prematurely confirm speculative inputs
 3. **Production-Ready Implementation** - Fast, dependency-free Python framework with comprehensive diagnostics
 
-**Status:** Framework complete and available for empirical validation. Validation studies are proposed but not yet conducted.
+**Status:** Framework complete and available for empirical validation. 
 
 ---
 
