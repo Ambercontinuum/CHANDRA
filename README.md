@@ -306,7 +306,7 @@ See `examples/custom_indicators.py` for more details.
 
 ## Documentation
 
-- **[Academic Paper](docs/whitepaper.pdf)** - Full theoretical foundation and validation protocol
+- **[Academic Paper](docs/whitepaper_.pdf)** - Full theoretical foundation and validation protocol
 - **[Methodology](docs/methodology.md)** - Technical implementation details
 - **[API Reference](docs/api_reference.md)** - Complete API documentation
 
