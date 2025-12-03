@@ -198,7 +198,7 @@ with open('batch_results.json', 'w') as f:
 
 ## Validation Status
 
-**Current Status:** Framework implementation complete. Empirical validation studies are **proposed but not yet conducted**.
+**Current Status:** Framework implementation complete. Empirical validation studies are on going**.
 
 ### Proposed Validation Protocol
 
