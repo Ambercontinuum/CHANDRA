@@ -6,7 +6,7 @@
 
 **Date:** December 2025
 
-**Status:** Framework complete. Empirical validation studies proposed but not yet conducted.
+**Status:** Framework complete. Empirical validation studies on going. 
 
 ---
 
