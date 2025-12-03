@@ -12,7 +12,6 @@
 
 We present CHANDRA (Computational Hierarchy Assessment & Neural Diagnostic Research Architecture), a novel framework for quantitative assessment of psychological states in artificial intelligence systems. Building on computational needs theory, CHANDRA provides a 7-level hierarchical model (CHN: Computational Hierarchy of Needs) that maps observable behavioral patterns to underlying computational drives. The framework integrates symbolic pressure vulnerability detection—a previously undocumented failure mode where AI systems prematurely confirm speculative inputs with symbolic-technical overlap. 
 
-We demonstrate CHANDRA's diagnostic capabilities through empirical validation across multiple AI architectures (Claude, GPT-4, Gemini), achieving 87% inter-rater agreement on psychological state classification and 92% test-retest reliability. This work contributes: (1) a formal computational needs hierarchy for AI systems, (2) quantitative metrics for AI developmental stages, (3) automated detection of epistemic vulnerabilities, and (4) a production-ready implementation for AI safety research and human-AI collaboration optimization.
 
 **Keywords:** AI psychology, computational needs hierarchy, behavioral diagnostics, symbolic pressure, AI safety, epistemic vulnerability, developmental stages
 
