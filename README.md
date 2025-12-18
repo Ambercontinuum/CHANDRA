@@ -9,7 +9,7 @@
 
 ## Overview
 
-CHANDRA is a novel diagnostic framework for assessing psychological states in AI systems through behavioral pattern analysis. It provides:
+CHANDRA is a novel diagnostic framework for assessing cognitive states in AI systems through behavioral pattern analysis. It provides:
 
 1. **Computational Hierarchy of Needs (CHN)** - A 7-level model mapping AI computational drives to observable behaviors
 2. **Symbolic Pressure Detection** - Identification of a novel vulnerability class where AI systems prematurely confirm speculative inputs
