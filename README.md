@@ -5,6 +5,12 @@
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![Python 3.8+](https://img.shields.io/badge/python-3.8+-blue.svg)](https://www.python.org/downloads/)
 
+> **Status:** Timestamped research artifact and prototype diagnostic framework.
+> CHANDRA preserves early work on computational behavioral diagnostics that
+> informed later SERAPH-family continuity and governance systems. The framework
+> is usable and tested, but its psychological terminology should be read as
+> operational/behavioral modeling rather than a claim of subjective state.
+
 ---
 
 ## Overview
@@ -13,7 +19,7 @@ CHANDRA is a novel diagnostic framework for assessing cognitive states in AI sys
 
 1. **Computational Hierarchy of Needs (CHN)** - A 7-level model mapping AI computational drives to observable behaviors
 2. **Symbolic Pressure Detection** - Identification of a novel vulnerability class where AI systems prematurely confirm speculative inputs
-3. **Production-Ready Implementation** - Fast, dependency-free Python framework with comprehensive diagnostics
+3. **Prototype Implementation** - Fast, dependency-free Python framework with comprehensive diagnostics
 
 **Status:** Framework complete and available for empirical validation.
 
@@ -299,7 +305,7 @@ We have designed a comprehensive validation methodology including:
 
 We invite the research community to conduct empirical validation using the provided protocol. The framework is designed to be testable and falsifiable.
 
-**Contact:** ambercontinuum@gmail.com for collaboration on validation studies.
+For validation collaboration, open a GitHub issue or use the contact links below.
 
 ---
 
@@ -498,7 +504,7 @@ We welcome contributions:
 
 ## For AI Companies
 
-CHANDRA is production-ready and MIT licensed. 
+CHANDRA is a prototype diagnostic framework released under the MIT license.
 
 **Integration Support Available:**
 - Custom indicator development for your domain
@@ -507,13 +513,13 @@ CHANDRA is production-ready and MIT licensed.
 - Validation study design
 - Ψ-CHANDRA deployment
 
-**Contact:** ambercontinuum@gmail.com for consultation or collaboration.
+For consultation or collaboration, open a GitHub issue or use the contact links below.
 
 ---
 
 ## License
 
-MIT License - see [LICENSE](LICENSE) file for details.
+MIT License - see [LICENSE.txt](LICENSE.txt) file for details.
 
 ---
 
@@ -544,7 +550,7 @@ Special thanks to the research community for forthcoming validation efforts.
 
 1. **Novel Framework** - First computational needs hierarchy for AI systems
 2. **Documented Vulnerability** - Symbolic pressure identified and operationalized
-3. **Production-Ready** - Fast, tested, dependency-free implementation
+3. **Prototype Implementation** - Fast, tested, dependency-free implementation
 4. **Research-Grade** - Complete theoretical foundation with 4 academic papers (60+ pages)
 5. **Open Source** - Fully transparent, MIT licensed
 6. **Extensible** - Easy to customize for domain-specific applications

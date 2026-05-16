@@ -1,9 +1,12 @@
-"""
-Custom Indicators Example for CHANDRA
+"""Custom indicators example for CHANDRA."""
 
-This script demonstrates how to extend CHANDRA with custom
-behavioral indicators for specialized analysis.
-"""
+import sys
+from pathlib import Path
+
+if hasattr(sys.stdout, "reconfigure"):
+    sys.stdout.reconfigure(encoding="utf-8")
+
+sys.path.insert(0, str(Path(__file__).resolve().parents[1]))
 
 from chandra import CHANDRA, CHNDiagnostic
 import re
