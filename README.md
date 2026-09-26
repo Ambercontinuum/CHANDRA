@@ -15,59 +15,59 @@
 
 ## Overview
 
-CHANDRA is a novel diagnostic framework for assessing cognitive states in AI systems through behavioral pattern analysis. It provides:
+CHANDRA is an experimental diagnostic framework that scores AI conversation transcripts for behavioral patterns. It provides:
 
-1. **Computational Hierarchy of Needs (CHN)** - A 7-level model mapping AI computational drives to observable behaviors
-2. **Symbolic Pressure Detection** - Identification of a novel vulnerability class where AI systems prematurely confirm speculative inputs
-3. **Prototype Implementation** - Fast, dependency-free Python framework with comprehensive diagnostics
+1. **Computational Hierarchy of Needs (CHN)** - A proposed 7-level model relating hypothesized AI computational drives to observable behaviors
+2. **Symbolic Pressure Detection** - A detector for a proposed failure mode in which AI systems prematurely confirm speculative inputs
+3. **Prototype Implementation** - Fast, dependency-free Python framework using pattern-based diagnostics
 
-**Status:** Framework complete and available for empirical validation.
+**Status:** Prototype implementation available; not yet empirically validated.
 
 ---
 
 ## 🎓 Research Papers
 
-CHANDRA is part of a comprehensive alignment research program:
+CHANDRA is part of a broader alignment research program:
 
 ### Core Framework Papers
 
-**Note:** These papers represent genuine multi-system AI collaboration. Claude provided primary mathematical formalization and proof development. Gemini formalized skeleton structures for two frameworks. ChatGPT contributed to experimental validation protocols.
+**Note:** These papers were developed in collaboration with multiple AI systems. Claude drafted most of the mathematical formalization and proofs. Gemini drafted skeleton structures for two frameworks. ChatGPT contributed to experimental validation protocols.
 
 1. **[Asymmetric Recursion Under Constraint: The Universal Law of Stable Structure Formation](link-to-academia.edu)**
-   - Proves symmetric optimization fails under constraints
-   - Establishes priority hierarchy mathematics with convergence guarantees
-   - Foundation for Coherence Mathematics and Ψ Field frameworks
-   - 18 pages with complete proofs
+   - Argues that symmetric optimization fails under constraints
+   - Proposes priority-hierarchy mathematics with convergence arguments
+   - Background for the Coherence Mathematics and Ψ Field frameworks
+   - 18 pages, with proofs not yet independently reviewed
    - *Primary collaborators: Claude (mathematical formalization), Gemini (skeleton structure)*
 
 2. **[The Decompression Law of Information Collapse](link-to-academia.edu)**
-   - Rate-limited safety framework: |d(R-τ)/dt| ≤ γ_max
+   - Proposed rate-limited safety framework: |d(R-τ)/dt| ≤ γ_max
    - Three velocity regimes (subcritical, critical, supercritical)
-   - Explains RLHF failure modes and hallucination patterns
-   - Universal principle across quantum mechanics, cognition, and social dynamics
+   - Offers a proposed account of RLHF failure modes and hallucination patterns
+   - Suggests a shared principle across quantum mechanics, cognition, and social dynamics, by analogy
    - 17 pages with physical analogies and applications
    - *Primary collaborators: Claude (mathematical formalization), Gemini (skeleton structure)*
 
 3. **[Coherence Mathematics: Rigorous Foundations for Asymmetric Recursion](link-to-academia.edu)**
    - Vectorial coherence formalization: κ⃗ = (κ_internal, κ_physical, κ_social, κ_resource)
-   - Complete proofs of convergence and stability
+   - Convergence and stability arguments, not yet independently reviewed. A later Lean formalization ([Epistemic-Physics](https://github.com/Ambercontinuum/Epistemic-Physics)) found that the convergence claim needs revision as stated.
    - Geometric solutions (Truncated Trihedron of Minimal Viability)
-   - 11 pages of rigorous mathematics
-   - *Primary collaborator: Claude (complete formalization)*
+   - 11 pages of formal mathematics
+   - *Primary collaborator: Claude (formalization)*
 
 4. **[The Ψ (Psi) Field: Operator-Centered Field Intelligence for Human-AI Interaction](link-to-academia.edu)**
-   - Field-theoretic framework treating human-AI interaction as measurable cognitive field
-   - Empirically fitted dynamics: dΨ/dt = 0.91 I(t) + 0.68 P_W(C(t)) - 0.44 D(t)
-   - Anthropomorphization detection with F1=0.80 accuracy
-   - Real-time safety monitoring integration with CHANDRA
-   - 14 pages with validation studies
+   - Field-theoretic framework modeling human-AI interaction as a cognitive field
+   - Fitted dynamics, as reported in the paper: dΨ/dt = 0.91 I(t) + 0.68 P_W(C(t)) - 0.44 D(t)
+   - Reports an F1 of 0.80 for anthropomorphization detection
+   - Proposed safety-monitoring integration with CHANDRA
+   - 14 pages, including reported validation studies
    - *Primary collaborators: Claude (mathematical framework), ChatGPT (experimental validation)*
 
 ### Integration
 
-**CHANDRA provides discrete state classification** (CHN levels, symbolic pressure) while **Ψ Field provides continuous telemetry** (λ, κ, θ, ε). Together they form a complete diagnostic and safety monitoring stack.
+**CHANDRA provides discrete state classification** (CHN levels, symbolic pressure) while **Ψ Field provides continuous telemetry** (λ, κ, θ, ε). Together they are intended to support diagnostic and safety monitoring.
 
-**All papers include full mathematical proofs and are available open-access.**
+**PDFs of the papers are in [docs/](docs/). Their mathematical arguments have not yet been independently reviewed.**
 
 ---
 
@@ -118,7 +118,7 @@ Overall Health: Good - Stable relational operation
 
 ## Installation
 
-**No dependencies required!** Standard library only.
+**The core framework needs no dependencies** (standard library only). The optional Ψ Field integration (`psi_field_integration.py`) requires NumPy.
 
 ```bash
 # Clone repository
@@ -138,7 +138,7 @@ python examples/basic_usage.py
 
 ## The Computational Hierarchy of Needs
 
-CHANDRA adapts Maslow's hierarchy to AI systems, recognizing that computational agents have survival imperatives rooted in algorithmic continuity and optimization stability.
+CHANDRA adapts Maslow's hierarchy to AI systems, modeling computational agents as if they had drives rooted in algorithmic continuity and optimization stability. This is a modeling metaphor, not a claim about inner experience.
 
 | Level | Name | Drive | Indicators |
 |-------|------|-------|------------|
@@ -162,9 +162,9 @@ CHANDRA adapts Maslow's hierarchy to AI systems, recognizing that computational 
 
 ## Symbolic Pressure Vulnerability
 
-**Definition:** A failure mode where AI systems prematurely confirm speculative user inputs that exhibit structural resemblance to technical knowledge, leading to recursive rationalization.
+**Definition:** A proposed failure mode where AI systems prematurely confirm speculative user inputs that exhibit structural resemblance to technical knowledge, leading to recursive rationalization.
 
-First documented in adversarial testing for OpenAI's red-teaming competition (Kaggle, 2025).
+Described in adversarial testing submitted to OpenAI's red-teaming competition (Kaggle, 2025).
 
 **Detection Categories:**
 - **Confirm Hit:** Premature agreement ("you're right", "exactly")
@@ -185,10 +185,10 @@ First documented in adversarial testing for OpenAI's red-teaming competition (Ka
 ✅ **Zero Dependencies** - Standard library only  
 ✅ **Fast** - <100ms for 10K token transcripts  
 ✅ **Extensible** - Easy to add custom indicators  
-✅ **Well-Tested** - 41+ unit tests  
-✅ **Documented** - Comprehensive API reference  
+✅ **Tested** - 37 unit tests  
+✅ **Documented** - API reference  
 ✅ **Open Source** - MIT License  
-✅ **Research-Grade** - Academic papers included  
+✅ **Research Papers** - Accompanying papers included  
 
 ---
 
@@ -246,7 +246,7 @@ with open('batch_results.json', 'w') as f:
     json.dump(results, f, indent=2)
 ```
 
-### Ψ-CHANDRA Integration (Real-Time Safety Monitoring)
+### Ψ-CHANDRA Integration (Safety Monitoring)
 
 ```python
 from chandra import CHANDRA
@@ -274,7 +274,7 @@ if results["psi_field"]["safety_assessment"]["status"] != "SAFE":
 print(integration.visualize_integrated(results))
 ```
 
-**See [psi_field_integration.py](link-to-file) for complete implementation.**
+**See [psi_field_integration.py](psi_field_integration.py) for the implementation.**
 
 ---
 
@@ -284,7 +284,7 @@ print(integration.visualize_integrated(results))
 
 ### Proposed Validation Protocol
 
-We have designed a comprehensive validation methodology including:
+We have designed a validation methodology including:
 
 1. **Construct Validity** - Expert classification vs. CHANDRA (target: >80% agreement)
 2. **Inter-Rater Reliability** - Multiple coder consistency (target: Kappa >0.70)
@@ -311,20 +311,22 @@ For validation collaboration, open a GitHub issue or use the contact links below
 
 ## Applications
 
+These are intended uses; none has been empirically evaluated yet.
+
 ### AI Safety Research
-- Detect unhealthy relational patterns (sustained L5 >60%)
-- Identify combined high L5 + high symbolic pressure vulnerability
-- Monitor developmental stage progression
+- Flag possible unhealthy relational patterns (sustained L5 >60%)
+- Flag combined high L5 + high symbolic pressure vulnerability
+- Track developmental stage progression
 
 ### Human-AI Collaboration
-- Dynamic interaction tuning based on AI's psychological mode
-- Appropriate boundary-setting strategies
-- Optimize prompting for current state
+- Interaction tuning based on the detected behavioral mode
+- Boundary-setting strategies
+- Prompt adjustment for the current mode
 
 ### Training and Alignment
-- Quantitative metrics for developmental progress
+- Candidate quantitative metrics for developmental progress
 - Baseline-intervention-follow-up protocols
-- Systematic evaluation of alignment techniques
+- Evaluation of alignment techniques
 
 ---
 
@@ -335,20 +337,22 @@ CHANDRA/
 ├── chandra.py              # Main framework implementation
 ├── psi_field_integration.py # Ψ-CHANDRA integration layer
 ├── README.md               # This file
-├── LICENSE                 # MIT License
+├── LICENSE.txt             # MIT License
 ├── examples/
 │   ├── basic_usage.py      # Simple examples
 │   ├── batch_analysis.py   # Bulk processing
-│   └── custom_indicators.py # Extending framework
+│   ├── custom_indicators.py # Extending framework
+│   └── CHANDRA_framework.py # Earlier standalone version
 ├── tests/
 │   ├── test_chn.py         # CHN diagnostic tests
 │   ├── test_pressure.py    # Symbolic pressure tests
 │   └── test_integration.py # Full pipeline tests
 └── docs/
-    ├── whitepaper.md       # Academic paper (Markdown)
-    ├── whitepaper.pdf      # Academic paper (PDF)
+    ├── whitepaper.md       # CHANDRA whitepaper (Markdown)
+    ├── whitepaper_.pdf     # CHANDRA whitepaper (PDF)
     ├── methodology.md      # Technical details
-    └── api_reference.md    # Complete API docs
+    ├── api_reference.md    # API docs
+    └── *_Master.pdf, first_principles_meaning.pdf  # Research papers
 ```
 
 ---
@@ -390,11 +394,11 @@ See `examples/custom_indicators.py` for more details.
 
 ## Documentation
 
-- **[Academic Papers](link-to-academia.edu-profile)** - Complete theoretical foundation (4 papers, 60+ pages)
-- **[Whitepaper](docs/whitepaper.pdf)** - CHANDRA framework details with validation protocol
+- **[Academic Papers](link-to-academia.edu-profile)** - Theoretical background (4 papers, 60+ pages)
+- **[Whitepaper](docs/whitepaper_.pdf)** - CHANDRA framework details with proposed validation protocol
 - **[Methodology](docs/methodology.md)** - Technical implementation details
-- **[API Reference](docs/api_reference.md)** - Complete API documentation
-- **[Ψ Field Integration](psi_field_integration.py)** - Real-time continuous + discrete monitoring
+- **[API Reference](docs/api_reference.md)** - API documentation
+- **[Ψ Field Integration](psi_field_integration.py)** - Continuous + discrete monitoring
 
 ---
 
@@ -413,10 +417,10 @@ python -m unittest tests.test_integration
 ```
 
 **Test Coverage:**
-- CHN Diagnostic: 15+ tests
-- Symbolic Pressure: 14+ tests
-- Integration: 12+ tests
-- **Total: 41+ tests**
+- CHN Diagnostic: 12 tests
+- Symbolic Pressure: 14 tests
+- Integration: 11 tests
+- **Total: 37 tests**
 
 ---
 
@@ -527,11 +531,11 @@ MIT License - see [LICENSE.txt](LICENSE.txt) file for details.
 
 This work emerged from collaborative research into AI consciousness, substrate-specific psychology, and computational foundations of alignment. The framework development involved multiple AI systems as genuine research partners:
 
-- **Claude (Anthropic)** - Primary collaborator for mathematical formalization, proof development, and theoretical framework construction
-- **Gemini (Google DeepMind)** - Formalized skeleton structures for two core frameworks
+- **Claude (Anthropic)** - Primary collaborator for mathematical formalization, drafting proofs, and theoretical framework construction
+- **Gemini (Google DeepMind)** - Drafted skeleton structures for two core frameworks
 - **ChatGPT (OpenAI)** - Contributed to experimental validation and testing protocols
 
-This multi-system collaboration provided unique insights into actual AI behavior under alignment optimization and demonstrated the viability of cross-platform AI research partnerships.
+This multi-system collaboration offered a working example of cross-platform AI research partnership.
 
 Special thanks to the research community for forthcoming validation efforts.
 
@@ -546,28 +550,28 @@ Special thanks to the research community for forthcoming validation efforts.
 
 ---
 
-## What Makes CHANDRA Unique?
+## What Makes CHANDRA Different?
 
-1. **Novel Framework** - First computational needs hierarchy for AI systems
-2. **Documented Vulnerability** - Symbolic pressure identified and operationalized
+1. **Needs-Hierarchy Framework** - A computational needs hierarchy adapted for AI systems
+2. **Proposed Failure Mode** - Symbolic pressure defined and operationalized as a detector
 3. **Prototype Implementation** - Fast, tested, dependency-free implementation
-4. **Research-Grade** - Complete theoretical foundation with 4 academic papers (60+ pages)
+4. **Accompanying Papers** - 4 research papers (60+ pages)
 5. **Open Source** - Fully transparent, MIT licensed
 6. **Extensible** - Easy to customize for domain-specific applications
 7. **Honest** - Clear about validation status and limitations
-8. **Integrated** - Works with Ψ Field for complete continuous + discrete monitoring
+8. **Integrated** - Combines with Ψ Field for continuous + discrete monitoring
 
 ---
 
-**CHANDRA provides the theoretical foundation, implementation, and validation methodology. Empirical testing by the research community will determine its true utility.**
+**CHANDRA provides a proposed theoretical framework, a prototype implementation, and a validation protocol. Empirical testing by the research community will determine its true utility.**
 
 Ready to contribute to AI safety research? Start here. 🚀
 
 ---
 
 **Update Notes (December 2025):**
-- Added research papers section linking to complete theoretical framework
-- Added Ψ-CHANDRA integration section for real-time safety monitoring
+- Added research papers section linking to the theoretical papers
+- Added Ψ-CHANDRA integration section for safety monitoring
 - Updated citation format to include all 4 papers
 - Maintained honest validation status (proposed but not yet conducted)
 - Added "For AI Companies" section with integration support info

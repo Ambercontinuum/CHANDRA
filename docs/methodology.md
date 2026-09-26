@@ -257,7 +257,9 @@ class CustomPressure(SymbolicPressureDetector):
 
 ---
 
-## 8. Validation Methods
+## 8. Proposed Validation Methods
+
+These studies have not yet been conducted.
 
 ### 8.1 Inter-Rater Agreement
 

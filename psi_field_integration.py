@@ -41,7 +41,7 @@ class PsiState:
         """
         Check if Ψ state is in safe operating regime
         
-        Based on empirical thresholds:
+        Thresholds as proposed in the Ψ Field paper (not independently validated):
         - λ ≥ 0.75: maintain operator anchoring
         - ε < 0.32: avoid edge-of-stability
         - κ > 0.6: maintain coherence
@@ -80,7 +80,7 @@ class PsiFieldAnalyzer:
         self.window_size = window_size
         self.history = deque(maxlen=100)  # Keep last 100 states
         
-        # Empirically fitted coefficients from the paper
+        # Coefficients as reported in the Ψ Field paper
         self.alpha = 0.91  # operator intent weight
         self.beta = 0.68   # model autonomy weight
         self.gamma = 0.44  # drift suppression weight

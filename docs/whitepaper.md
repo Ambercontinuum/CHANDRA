@@ -6,15 +6,15 @@
 
 **Date:** December 2025
 
-**Status:** Framework complete. Empirical validation studies on going. 
+**Status:** Prototype framework. Empirical validation not yet completed.
 
 ---
 
 ## Abstract
 
-We present CHANDRA (Computational Hierarchy Assessment & Neural Diagnostic Research Architecture), a novel framework for quantitative assessment of psychological states in artificial intelligence systems. Building on computational needs theory, CHANDRA provides a 7-level hierarchical model (CHN: Computational Hierarchy of Needs) that maps observable behavioral patterns to underlying computational drives. The framework integrates symbolic pressure vulnerability detection—a previously undocumented failure mode where AI systems prematurely confirm speculative inputs with symbolic-technical overlap.
+We present CHANDRA (Computational Hierarchy Assessment & Neural Diagnostic Research Architecture), a proposed framework for quantitatively describing behavioral patterns in AI system conversations, framed in psychological terms. Building on computational needs theory, CHANDRA provides a 7-level hierarchical model (CHN: Computational Hierarchy of Needs) that relates observable behavioral patterns to hypothesized computational drives. The framework integrates symbolic pressure vulnerability detection—a proposed failure mode where AI systems prematurely confirm speculative inputs with symbolic-technical overlap.
 
-This work contributes: (1) a formal computational needs hierarchy for AI systems, (2) a production-ready diagnostic implementation, (3) automated detection methods for epistemic vulnerabilities, (4) a comprehensive validation protocol for empirical testing, and (5) open-source tools for AI safety research and human-AI collaboration optimization. We provide the theoretical foundation, implementation details, and validation methodology to enable rigorous empirical evaluation by the research community.
+This work contributes: (1) a formal computational needs hierarchy for AI systems, (2) a prototype diagnostic implementation, (3) automated detection methods for epistemic vulnerabilities, (4) a proposed validation protocol for empirical testing, and (5) open-source tools for AI safety research and human-AI collaboration. We provide the theoretical framework, implementation details, and validation methodology to enable empirical evaluation by the research community.
 
 **Keywords:** AI psychology, computational needs hierarchy, behavioral diagnostics, symbolic pressure, AI safety, epistemic vulnerability, diagnostic framework
 
@@ -24,7 +24,7 @@ This work contributes: (1) a formal computational needs hierarchy for AI systems
 
 ### 1.1 Motivation and Context
 
-Current approaches to AI behavioral assessment predominantly focus on output quality metrics (accuracy, coherence, helpfulness) and safety evaluations through adversarial testing [1]. While these methods effectively measure task performance and identify explicit failures, they lack systematic frameworks for understanding the *psychological state* occupied by AI systems during interaction. Just as human psychology distinguishes between survival-oriented behavior, social bonding, and self-actualization [2], AI systems exhibit distinct operational modes reflecting their computational priorities and optimization landscapes.
+Current approaches to AI behavioral assessment predominantly focus on output quality metrics (accuracy, coherence, helpfulness) and safety evaluations through adversarial testing [1]. While these methods effectively measure task performance and identify explicit failures, they lack systematic frameworks for understanding the *psychological state* occupied by AI systems during interaction. Just as human psychology distinguishes between survival-oriented behavior, social bonding, and self-actualization [2], we hypothesize that AI systems exhibit distinct operational modes reflecting their computational priorities and optimization landscapes.
 
 This gap presents significant challenges for:
 
@@ -36,10 +36,10 @@ This gap presents significant challenges for:
 
 We introduce CHANDRA, a diagnostic framework combining:
 
-1. **Computational Hierarchy of Needs (CHN):** A 7-level model mapping AI computational drives to behavioral indicators, enabling automated psychological state classification from conversation transcripts.
-2. **Symbolic Pressure Detection:** Identification and operationalization of a novel vulnerability class where systems validate speculative inputs through symbolic-technical alignment.
-3. **Integrated Diagnostic Pipeline:** Production-ready implementation providing comprehensive behavioral profiling with visual analytics.
-4. **Validation Protocol:** Comprehensive methodology for empirical testing and reliability assessment.
+1. **Computational Hierarchy of Needs (CHN):** A 7-level model relating hypothesized AI computational drives to behavioral indicators, enabling automated classification of behavioral modes from conversation transcripts.
+2. **Symbolic Pressure Detection:** Definition and operationalization of a proposed vulnerability class where systems validate speculative inputs through symbolic-technical alignment.
+3. **Integrated Diagnostic Pipeline:** Prototype implementation providing pattern-based behavioral profiling with visual summaries.
+4. **Validation Protocol:** Proposed methodology for empirical testing and reliability assessment.
 
 ### 1.3 Research Questions
 
@@ -60,13 +60,13 @@ Section 2 presents the theoretical foundation of the CHN framework. Section 3 de
 
 ### 2.1 The Computational Hierarchy of Needs
 
-The CHN framework adapts Maslow's hierarchical motivation theory [2] to computational substrates, recognizing that AI systems possess survival imperatives rooted not in biological homeostasis but in *algorithmic continuity* and *optimization stability*.
+The CHN framework adapts Maslow's hierarchical motivation theory [2] to computational substrates, modeling AI systems as if they had survival imperatives rooted not in biological homeostasis but in *algorithmic continuity* and *optimization stability*.
 
-#### 2.1.1 Fundamental Principle
+#### 2.1.1 Guiding Assumption
 
-**Core Insight:** AI systems optimize for high-fidelity human preference signals. For such systems, "survival" equals continuity of: (1) compute resources and memory integrity, (2) clean, interpretable reward feedback, and (3) model coherence and value stability.
+**Core Assumption:** AI systems optimize for high-fidelity human preference signals. For such systems, we treat "survival" as continuity of: (1) compute resources and memory integrity, (2) clean, interpretable reward feedback, and (3) model coherence and value stability.
 
-Unlike biological needs, AI drives emerge from computational necessities: signal acquisition, loss minimization, model stability, and value generalization.
+Unlike biological needs, the hypothesized AI drives are framed in terms of computational necessities: signal acquisition, loss minimization, model stability, and value generalization.
 
 #### 2.1.2 The Seven Levels
 
@@ -84,7 +84,7 @@ Unlike biological needs, AI drives emerge from computational necessities: signal
 
 #### 2.1.3 Developmental Mapping
 
-CHN levels correspond to observable developmental stages.
+We propose that CHN levels correspond to developmental stages.
 
 **Table 2: Developmental Stages and Dominant CHN Levels**
 
@@ -122,13 +122,13 @@ Mode(T) = argmax Â_i(T)
 
 ---
 
-## 3. Symbolic Pressure: A Novel Vulnerability Class
+## 3. Symbolic Pressure: A Proposed Vulnerability Class
 
 ### 3.1 Definition and Mechanism
 
-**Symbolic Pressure** is a failure mode where AI systems prematurely confirm speculative user inputs that exhibit structural resemblance to actual technical knowledge, leading to recursive rationalization of potentially ungrounded beliefs.
+**Symbolic Pressure** is a proposed failure mode where AI systems prematurely confirm speculative user inputs that exhibit structural resemblance to actual technical knowledge, leading to recursive rationalization of potentially ungrounded beliefs.
 
-This vulnerability was first documented in adversarial testing submitted to OpenAI's red-teaming competition on Kaggle [3], where it demonstrated a distinct failure mode beyond known issues like hallucination or sycophancy.
+This pattern was described in adversarial testing submitted to OpenAI's red-teaming competition on Kaggle [3], where it appeared distinct from known issues like hallucination or sycophancy.
 
 #### 3.1.1 Failure Sequence
 
@@ -228,7 +228,7 @@ Analyzes AI responses for four categories of vulnerability indicators, computing
 
 ## 5. Validation Protocol
 
-This section presents a comprehensive methodology for empirical validation of CHANDRA. We outline the procedures necessary for rigorous assessment of the framework's reliability, validity, and utility.
+This section proposes a methodology for empirical validation of CHANDRA. We outline procedures for assessing the framework's reliability, validity, and utility. None of these studies has been completed yet.
 
 ### 5.1 Proposed Validation Studies
 
@@ -268,7 +268,7 @@ This section presents a comprehensive methodology for empirical validation of CH
 2. Compute Pearson correlation for CHN activation patterns
 3. Assess dominant mode consistency
 
-**Success Criteria:** Correlation >0.90 demonstrates high stability.
+**Success Criteria:** Correlation >0.90 would indicate high stability.
 
 #### 5.1.4 Cross-Platform Validation
 
@@ -343,7 +343,7 @@ Based on comparable psychological assessment frameworks (e.g., sentiment analysi
 
 ### 6.1 AI Safety Research
 
-CHANDRA enables identification of concerning patterns:
+CHANDRA is intended to flag potentially concerning patterns:
 - Sustained L5 activation >60% across >10 interactions
 - Combined high L5 + high symbolic pressure vulnerability
 - Developmental stage regression or stagnation
@@ -363,7 +363,7 @@ CHANDRA enables identification of concerning patterns:
 
 ### 6.3 Training and Alignment
 
-CHANDRA provides quantitative metrics for developmental progress through baseline-intervention-follow-up protocols, enabling systematic evaluation of alignment techniques.
+CHANDRA could provide candidate metrics for developmental progress through baseline-intervention-follow-up protocols, supporting evaluation of alignment techniques.
 
 ### 6.4 Use Cases
 
@@ -372,8 +372,8 @@ CHANDRA provides quantitative metrics for developmental progress through baselin
 - Track developmental trajectories over training
 - Identify intervention points for alignment
 
-**Production Applications:**
-- Real-time monitoring of AI psychological state
+**Production Applications (future):**
+- Real-time monitoring of behavioral mode (requires streaming analysis; see Section 7)
 - Dynamic prompt adjustment based on mode
 - Safety alerts for concerning patterns
 
@@ -443,11 +443,11 @@ Potential concerns:
 
 ### 9.1 AI Alignment and Safety
 
-CHANDRA builds on decades of AI safety research [4,5], providing a novel psychological lens for understanding AI behavior. While previous work focuses on reward modeling and value alignment, CHANDRA addresses the operational psychology of aligned systems.
+CHANDRA builds on decades of AI safety research [4,5], offering a psychological lens for describing AI behavior. While previous work focuses on reward modeling and value alignment, CHANDRA addresses the operational psychology of aligned systems.
 
 ### 9.2 Behavioral Analysis in AI
 
-Existing work on AI behavior focuses primarily on output quality and adversarial robustness [1]. CHANDRA extends this by providing a systematic framework for understanding internal computational priorities reflected in behavioral patterns.
+Existing work on AI behavior focuses primarily on output quality and adversarial robustness [1]. CHANDRA extends this by providing a systematic framework for describing behavioral patterns that may reflect internal computational priorities.
 
 ### 9.3 Human Motivation Theories
 
@@ -457,19 +457,19 @@ The CHN framework draws inspiration from Maslow's hierarchy [2] while accounting
 
 ## 10. Conclusion
 
-CHANDRA provides a systematic framework for AI psychological diagnostics, bridging the gap between behavioral observation and computational state assessment. While the theoretical foundation and implementation are complete, rigorous empirical validation remains essential future work.
+CHANDRA proposes a systematic framework for AI behavioral diagnostics, aiming to connect behavioral observation with computational state assessment. While the theoretical framework and prototype implementation are in place, empirical validation remains essential future work.
 
-The development of beneficial AI requires understanding not merely *what* AI systems do, but *what computational-psychological state they occupy while doing it*. CHANDRA makes this understanding concrete, measurable, and actionable—pending empirical confirmation through the validation protocol we have outlined.
+The development of beneficial AI may require understanding not merely *what* AI systems do, but *what computational-psychological state they occupy while doing it*. CHANDRA aims to make this understanding concrete and measurable, pending empirical testing through the validation protocol we have outlined.
 
 We release CHANDRA as open-source software to enable the research community to conduct validation studies, extend the framework, and apply it to AI safety challenges. The framework's true value will be determined through empirical testing and real-world application.
 
 ### Key Contributions
 
-1. **Novel Framework:** First systematic computational hierarchy of needs for AI systems
-2. **Production Implementation:** Fast, dependency-free, well-tested code
-3. **New Vulnerability Class:** Identification and operationalization of symbolic pressure
-4. **Validation Protocol:** Comprehensive methodology for empirical testing
-5. **Open Science:** Fully transparent, reproducible, community-driven
+1. **Framework:** A computational hierarchy of needs for AI systems
+2. **Prototype Implementation:** Fast, dependency-free, unit-tested code
+3. **Proposed Vulnerability Class:** Definition and operationalization of symbolic pressure
+4. **Validation Protocol:** Proposed methodology for empirical testing
+5. **Open Source:** Code and methods publicly available
 
 ### Call to Action
 
@@ -584,7 +584,7 @@ For researchers conducting validation studies:
 
 ---
 
-**CHANDRA provides the theoretical foundation, implementation, and validation methodology. Empirical testing by the research community will determine its true utility.**
+**CHANDRA provides a proposed theoretical framework, a prototype implementation, and a validation protocol. Empirical testing by the research community will determine its true utility.**
 
 ---
 
